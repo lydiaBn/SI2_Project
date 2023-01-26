@@ -1,17 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 body {
-  background-color: #ebefef;
+  background-color: F4F9F9;
   font-family: "Poppins", sans-serif;
-  width: 100%;
 }
 main {
+  padding: 10px;
+  max-width: 700px;
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 20px;
 }
 header {
-  margin-top: 10px;
-  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50 px;
@@ -26,12 +23,9 @@ header a.logo {
 }
 header nav {
   display: flex;
-  gap: 450px;
+  gap: 150px;
 }
 
-.navbar1 :hover {
-  color: CCF2F4;
-}
 .navbar1 {
   display: flex;
   gap: 60px;
@@ -45,40 +39,4 @@ header nav {
   width: auto;
   max-height: 30px;
   max-width: 250px;
-}
-
-button {
-  font-family: "Poppins", sans-serif;
-  background-color: #ccf2f4;
-  border-color: none;
-}
-.Entries {
-  display: flex;
-  justify-content: space-between;
-  gap: 130px;
-  margin-top: 50px;
-}
-.entry2 img {
-  width: 460px;
-  height: 460px;
-}
-ul {
-  list-style: none;
-}
-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  gap: 117 px;
-}
-footer a {
-  text-decoration: none;
-  color: #aaaaaa;
-  font-family: "Inter", sans-serif;
-  display: inline-block;
-}
-.copyright {
-  font-family: "Inter", sans-serif;
-  color: #aaaaaa;
-  font-size: 14px;
 }
