@@ -12,7 +12,6 @@ function App() {
                 alt="logo"
               />
             </a>
-            <a href=""> Etat Civil </a>
             <a href=""> Statistique </a>
             <a href=""> Plan Du Site</a>
           </div>
